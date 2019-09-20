@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "e2e": "testcafe chrome e2e",
+    "e2e-smoke": "testcafe chrome e2e --fixture-meta smoke=true",
+    "e2e:ci": "testcafe chrome:headless e2e",
+    "e2e-smoke:ci": "testcafe chrome:headless e2e --fixture-meta smoke=true"
+  },
+  "dependencies": {
+    "testcafe": "^1.5.0",
+    "typescript": "^3.6.3"
+  }
+}
